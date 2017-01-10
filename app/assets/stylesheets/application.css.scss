@@ -14,6 +14,49 @@
  *= require_self
  */
  
+ @import 'bootstrap-sprockets';
+ @import 'bootstrap';
+ 
  h1, h2, h3 {
     font-family: 'Open Sans', sans-serif;
+}
+
+/* hero */
+
+#hero {
+    background: url('web_header.jpg') no-repeat;
+    background-size: cover;
+    height: 600px;
+    
+}
+.callout {
+   
+    padding-top: 15%;
+}
+
+.callout h1 {
+    font-size: 6em;
+    color: #fff;
+    text-shadow: #000;
+}
+.callout p {
+    font-size: 2em;
+    color: #fff;
+}
+
+/* Mission */
+.mission {
+    padding: 50px 0;
+    background-color: #404040;
+    width: 100%;
+    height: 600px;
+    color: #fff;
+}
+.textbox {
+    padding-right: 50px;
+    text-align: justify;
+    color: #000;
+}
+.campaign .testbox {
+    color: #000;
 }
