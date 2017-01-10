@@ -75,6 +75,14 @@ li a:hover {
 .navbar {
     height: 100px;
 }
+.navbar .navbar-nav {
+    padding-top: 25px;
+    font-size: 1.7em;
+
+}
+.navbar .navbar-nav a {
+    color: #fff;
+}
 .navbar-default {
     background-color: #003A58;
     border: #003A58;
@@ -192,7 +200,21 @@ p.subtext {
 } 
 
 .partner {
-    padding: 50px 0;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    background: url('BWS_men1.jpeg') no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.partner h1 {
+    font-size: 4em;
+    color: #fff;
+    text-shadow: 2px 2px #000;
+}
+.partner p {
+    font-size: 2em;
+    color: #fff;
+    text-shadow: 2px 2px #000;
 }
 
 /* footer */
