@@ -23,13 +23,71 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+li {
+    list-style-type: none;
+}
+li a {
+    color: #fff;
+    
+}
+li a:hover {
+    text-decoration: none;
+    color: #efeeed;
+}
+.center {
+    text-align: center;
+}
+.inline li {
+    list-style-type: none;
+    float: right;
+    padding-right: 20px;
+    
+}
+.main {
+    margin: 50px 0;
+}
+.placeholder {
+    margin-top: 60px;
+    text-align: center;
+    border: 2px solid #e3e6e8;
+    height: 191px;
+    width: 100%;
+    padding: 20px 24px;
+    box-shadow: 3px 3px 5px grey;
+}
+
+.innerbox {
+    height: 151px;
+    width: 672px;
+    padding: 16px; 
+    border: 2px dashed #e3e6e8;
+}
+.output {
+    padding-top: 70px;
+    text-align: center center;
+}
+.hero {
+    float: left;
+    font-size: 36px;
+}
+
+/* Navbar */ 
+.navbar {
+    height: 100px;
+}
+.navbar-default {
+    background-color: #003A58;
+    border: #003A58;
+    border-radius: 0;
+}
+
 /* hero */
 
 #hero {
     background: url('web_header.jpg') no-repeat;
     background-size: cover;
     height: 600px;
-    
+    margin-top: -20px;
 }
 .callout {
    
@@ -39,12 +97,47 @@
 .callout h1 {
     font-size: 6em;
     color: #fff;
-    text-shadow: #000;
+    text-shadow: 2px 1px #000;
 }
 .callout p {
     font-size: 2em;
     color: #fff;
 }
+.lead {
+    font-size: 1.8em;
+    color: #fff;
+    text-shadow: 1px 1px #000;
+}
+
+/* Appeal */
+.appeal {
+    margin-top: -150px;
+}
+.appeal h1 {
+    font-size: 3em;
+    color: #000;
+    text-shadow: 1px 1px #fff;
+}
+
+/* Campaign */
+.campaign {
+    padding: 60px 0;
+}
+
+p.subtext {
+     font-size: 1.5em;
+}
+/* Crowd */ 
+.crowd {
+    background: url('NS_1400x400.jpg') no-repeat;
+    background-size: cover;
+    height: 300px;
+}  
+.crowd .btn {
+    margin-top: 18%;
+    margin-left: 45%;
+}
+
 
 /* Mission */
 .mission {
@@ -62,3 +155,73 @@
 .campaign .testbox {
     color: #000;
 }
+
+/*Blog*/
+.blog {
+    padding: 30px 0;
+}
+.blog h1 {
+    text-align: center;
+    padding-bottom: 20px 0;
+}
+.blog h2 {
+    text-align: center;
+}
+.blogicon {
+    padding-left: 15px;
+}
+.blog p {
+    padding-bottom: 10px;
+}
+.caption p {
+    color: #000;
+    text-align: left;
+}
+/* Community Partners*/
+.corplogo {
+    padding: 40px 10px;
+    background-color: #cbcbcb;
+}
+.corplogo h2 {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.redlight {
+    color: red;
+} 
+
+.partner {
+    padding: 50px 0;
+}
+
+/* footer */
+.mainfoot {
+    background-color: #003A58;
+    color: #fff;
+    padding-top: 30px;
+}
+.justified {
+    text-align: justify;
+}
+
+.mediabar li {
+    display: inline;
+    font-size: 2em;
+    padding-right: 15px;
+}
+.leadimage {
+    text-align: left;
+}
+
+.footlist {
+    padding: 40px 20px 0;
+}
+.subfoot {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    margin-top: 30px; 
+}
+
+/* modal */
