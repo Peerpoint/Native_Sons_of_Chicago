@@ -76,17 +76,19 @@ li a:hover {
     height: 100px;
 }
 .navbar .navbar-nav {
-    padding-top: 25px;
+    padding-top: 30px;
     font-size: 1.7em;
-
 }
-.navbar .navbar-nav a {
+.navbar .navbar-nav a:link {
     color: #fff;
 }
 .navbar-default {
     background-color: #003A58;
     border: #003A58;
     border-radius: 0;
+}
+.navtext a {
+    color: #fff;
 }
 
 /* hero */
@@ -95,22 +97,27 @@ li a:hover {
     background: url('web_header.jpg') no-repeat;
     background-size: cover;
     height: 600px;
+    width: 100%;
     margin-top: -20px;
 }
 .callout {
-   
     padding-top: 15%;
 }
 
 .callout h1 {
-    font-size: 6em;
+    font-size: 5em;
     color: #fff;
     text-shadow: 2px 1px #000;
 }
 .callout p {
     font-size: 2em;
     color: #fff;
+    text-shadow: 2px 1px #000;
 }
+.callout1 {
+    padding-top: 30px;
+}
+
 .lead {
     font-size: 1.8em;
     color: #fff;
@@ -119,17 +126,26 @@ li a:hover {
 
 /* Appeal */
 .appeal {
-    margin-top: -150px;
+    
+    background: url('rehab2.jpeg') no-repeat;
+    background-size: cover;
+    height: 600px;
 }
 .appeal h1 {
     font-size: 3em;
     color: #000;
     text-shadow: 1px 1px #fff;
+    
+}
+.highlight {
+    text-decoration: underline strong;
+
 }
 
 /* Campaign */
 .campaign {
     padding: 60px 0;
+    background-color: #BCB3A6;
 }
 
 p.subtext {
@@ -226,14 +242,16 @@ p.subtext {
 .justified {
     text-align: justify;
 }
+ul .mediabar {
+    margin-left: -40px;
+    
+}
 
 .mediabar li {
     display: inline;
     font-size: 2em;
     padding-right: 15px;
-}
-.leadimage {
-    text-align: left;
+    
 }
 
 .footlist {
@@ -247,3 +265,44 @@ p.subtext {
 }
 
 /* modal */
+
+/* Blog page */
+.banner_blog { 
+    background: url('blog_banner.jpg') no-repeat;
+    background-size: cover;
+    height: 600px;
+    margin-top: -70px;
+}
+.blog_text {
+    color: #fff;
+    font-size: 8em;
+    padding-top: 30%;
+}
+.freeborn {
+    padding-top: 40px;
+    
+}
+.sbac {
+    padding-top: 15px;
+}
+.peerpoint {
+    margin-left: -10px;
+}
+.banner_about {
+    background: url('about_us1.JPG') no-repeat;
+    background-size: cover;
+    height: 500px;
+    margin-top: -70px;
+}
+.about_text {
+    color: #fff;
+    font-size: 6em;
+    padding-top: 30%;
+    text-align: center;
+}
+.mission_text {
+    font-size: 1.5em;
+}
+.advisory_sm {
+    color: #000;
+}

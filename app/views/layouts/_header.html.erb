@@ -17,11 +17,12 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
    
       <ul class="nav navbar-nav navbar-right">
-          <li class="navtext"><%= link_to 'Mission', about_path %></li>
-          <li class="navtext"><%= link_to 'About', about_path %></li>
-          <li class="navtext"><%= link_to 'Projects', about_path %></li>
-          <li class="navtext"><%= link_to "Contact Us", new_contact_path %></li>
-          <%= link_to "Learn More", new_contact_path, class: "btn btn-danger navbar-btn btn-lg" %>
+          <li><%= link_to 'Mission', about_path %></li>
+          <li><%= link_to 'About', about_path %></li>
+          <li><%= link_to 'Projects', projects_path %></li>
+          <li><%= link_to "Contact Us", new_contact_path %></li>
+          <li><%= link_to "Blog", blog_path %></li>
+          <%= link_to "INVEST", new_contact_path, class: "btn btn-danger navbar-btn btn-lg" %>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->

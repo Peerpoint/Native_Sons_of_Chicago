@@ -9,7 +9,7 @@
                   <div class="lead">
                       Investing a little changes a lot
                   </div>
-                  <button class="btn btn-lg btn-danger">Learn More</button>
+                  <%= link_to "Learn More", new_contact_path, class: "btn btn-danger navbar-btn btn-lg" %>
               </div>
               <div class="col-md-4 callout text-center"><h1>EMPOWER</h1></div>
               </div>
@@ -23,9 +23,9 @@
      <section class="appeal">
        <div class="container">
          <div class="row">
-           <div class="col-md-6 col-md-offset-6 callout">
+           <div class="col-md-5 col-md-offset-7 callout1">
              <h1>Let's Build Stronger<br>And Safer Communities<br>Together</h1>
-             <blockquote>For years we have watched our communities deteriorate due to the flight of jobs and businesses.   Now its time to united to rebuild our economy! No donations, handouts or charity!  Let's begin to show others that united we profit.</blockquote>
+             <blockquote>For years we have watched our communities deteriorate due to the flight of jobs and businesses.   Now its time to unite to rebuild our economy! No donations, handouts or charity!  Let's begin to show others that <span class="highlight strong">united we profit!</span></blockquote>
            </div>
          </div><!--close row-->
        </div><!--close container-->
@@ -38,72 +38,41 @@
   ===========================================================================================================================-->
      <section class="campaign">
        <h1 class="center">How We Deploy Capital</h1>
-       <p class="subtext text-center">During our 5 year campign we plan to deploy $100 million into our underserved<br> communities specifically in the following areas</p><br>
+       <p class="subtext text-center">During our 5 year campaign we plan to deploy $100 million into our underserved<br> communities specifically in the following areas</p><br>
        <div class="container">
        <div class="row">
          <div class="col-md-4 col-sm-12 projects">
           <%= image_tag("class_boy.jpg", size: "300x150") %>
            <h3>Ecomomic Empowerment</h3>
-           <p class="textbox">A really good description of this that makes people want to click and learn more.  A really good description of this that makes people want to click and learn more.  A really good description of this that makes people want to click and learn more.  A really good description of this that makes people want to click and learn more.</p>
-           <button class="btn btn-danger btn-sm">Learn More</button>
+           <p class="textbox">The introduction of Equity Crowdfunding to the US economy offers an economic empowerment opportunity never seen before. Business owners are now able to not only raise investment funds from everyday citizens but most importantly, that money can now be raised from the people within the communities those businesses serve. Using ECF as an economic development tool is a strategy and not a side effect.</p>
+           <%= link_to "Learn More", new_contact_path, class: "btn btn-danger navbar-btn btn-sm" %>
          </div>
          <div class="col-md-4 col-sm-12 projects">
            <%= image_tag("rehab.jpeg", size: "300x150") %>
            <h3>Urban Redevelopment</h3>
-           <p class="textbox">A really good description of this that makes people want to click and learn more.  A really good description of this that makes people want to click and learn more.  A really good description of this that makes people want to click and learn more.  A really good description of this that makes people want to click and learn more.</p>
-           <button class="btn btn-danger btn-sm">Learn More</button>
+           <p class="textbox">The shuttered real estate in communities throughout the Chicagoland area offers enormous opportunities to invest and redevelop our communities while providing jobs for local workers both skilled and unskilled. Native Sons has developed a sustainable strategy to raise over $100 Million over the next 5 years, creating jobs, homeownership and investment opportunities along the way.</p>
+           <%= link_to "Learn More", new_contact_path, class: "btn btn-danger navbar-btn btn-sm" %>
          </div>
           <div class="col-md-4 col-sm-12 projects">
            <%= image_tag("about_us.jpeg", size: "300x150") %>
            <h3>Entrepreneurship</h3>
-           <p class="textbox">A really good description of this that makes people want to click and learn more.  A really good description of this that makes people want to click and learn more.  A really good description of this that makes people want to click and learn more.  A really good description of this that makes people want to click and learn more.</p>
-           <button class="btn btn-danger btn-sm">Learn More</button>
+           <p class="textbox">The best ideas from our brightest minds can now be brought to life in this new environment. As leaders in the equity crowdfunding space, we will help local entrepreneurs and existing business owners grow viable and sustainable business models. Whether we are helping you harness the power of ECF or acting as a financial partner, supporting innovation is our passion and we are positioned to help you succeed.</p>
+           <%= link_to "Learn More", new_contact_path, class: "btn btn-danger navbar-btn btn-sm" %>
          </div>
        </div><!--row-->
       </div><!--container-->
      </section>
   <!--=========================================================================================================================
      4.     How You Can Help
-  ============================================================================================================================-->
+  =========================================================================================================================== -->
      <section class="crowd">
        
-        <button class="btn btn-lg btn-danger">Learn More</button>
+        <%= link_to "Learn More", new_contact_path, class: "btn btn-danger navbar-btn btn-lg" %>
      </section>
      
 
 
-     <!--=========================================================================================================================
-      7.    Blog
-  ============================================================================================================================-->
-     <section class="blog">
-       <div class="container">
-         <div class="row">
-           <h1>Blog</h1>
-           <div class="col-md-6">
-             <div class="thumbnail">
-             <%= image_tag("partner.jpeg") %>
-             <div class="caption">
-             <h2>Blog title #1</h2>
-             <p>November 21, 2016  | <span class="blogicon"><i class="fa fa-eye"> 120</i></span ><span class="blogicon"><i class="fa fa-comment"> 20</i></span><span class="blogicon"><i class="fa fa-heart"> 12</i></span></p>
-             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-             <button class="btn btn-success">Read More</button>
-           </div>
-           </div>
-           </div>
-           <div class="col-md-6">
-             <div class="thumbnail">
-             <%= image_tag("partner.jpeg") %>
-             <div class="caption">
-             <h2>Blog title #2</h2>
-             <p>November 21, 2016  &nbsp| <span class="blogicon"><i class="fa fa-eye"> 120</i></span ><span class="blogicon"><i class="fa fa-comment"> 20</i></span><span class="blogicon"><i class="fa fa-heart"> 12</i></span></p>
-             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-             <button class="btn btn-success">Read More</button>
-           </div>
-           </div>
-         </div>
-       </div>
-       </div>
-     </section>
+
 <!--=========================================================================================================================
      8.   Partner with US (have local businesses register) 
   ============================================================================================================================-->
@@ -112,7 +81,7 @@
            <p class="text-center subtext">We will be <span class="redlight"> Igniting the power of us</span> by partnering with local businesses like yours. <br>Please take a moment and tell us more about your business.</p><br><br>
           <div class="container">
               <div class="row">
-                  <div class="col-md-6 col-md-offset-3">
+                  <div class="col-md-4 col-md-offset-4">
                        <form>
                            <div class="form-group">
                             <input type="email" class="form-control" id="name" placeholder="Name">
@@ -126,6 +95,7 @@
                           <div class="form-group">
                             <input type="phone" class="form-control" id="phone" placeholder="Phone">
                           </div>
+                          <%= link_to "Partner With Us", new_contact_path, class: "btn btn-danger navbar-btn btn-block" %>
                       </form>
           </div>
           </div>
@@ -140,23 +110,20 @@
        <div class="container">
          <h2>Our Corporate and Community Partners</h2>
          <div class="row">
-           <div class="col-md-2 center">
-             <%= image_tag("NATIVESONSofCHICAGO21", size: "120x41") %>
-           </div>
-           <div class="col-md-2 center">
+           <div class="col-md-2 col-md-offset-1 center">
              <%= image_tag("vestlo logo.png", size: "120x120") %>
            </div>
-           <div class="col-md-2 center">
+           <div class="col-md-2 center sbac">
              <%= image_tag("SBAC_Logo.png", size: "180x90") %>
            </div>
            <div class="col-md-2 center">
              <%= image_tag("chicago_logo1.png", size: "120x120") %>
            </div>
-           <div class="col-md-2 center">
-             <%= image_tag("PeerPoint Capital.png", size: "180x127") %>
+           <div class="col-md-2 center peerpoint">
+             <%= image_tag("PeerPoint Capital.png", size: "200x127") %>
            </div>
-           <div class="col-md-2 center">
-             <%= image_tag("Freeborn-logo.png", size: "200x50") %>
+           <div class="col-md-2 freeborn">
+             <%= image_tag("Freeborn-logo.png", size: "240x60") %>
            </div>
          </div><!--end row-->
        </div><!--end container-->
