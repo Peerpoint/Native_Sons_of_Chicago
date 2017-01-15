@@ -5,34 +5,49 @@
       <div class="container">
           <div class="row">
               <div class="col-md-4 callout text-center"><h1>INVEST </h1></div>
-              <div class="col-md-4 callout text-center"><h1>IMPACT</h1><br><br>
-                  <div class="lead">
-                      Investing a little changes a lot
-                  </div>
-                  <%= link_to "Learn More", new_contact_path, class: "btn btn-danger navbar-btn btn-lg" %>
-              </div>
+              <div class="col-md-4 callout text-center"><h1>IMPACT</h1></div>
               <div class="col-md-4 callout text-center"><h1>EMPOWER</h1></div>
+          </div><br><br>
+          <div class="row">
+              <div class="col-md-6 col-md-offset-3 text-center">
+              <div class="lead">
+                          Investing a little can change a lot.  We are commited to rejuvinating OUR neighborhoods one building at a time.  
+              </div>
+                      <%= link_to "Learn More", new_contact_path, class: "btn btn-danger navbar-btn btn-lg" %>
               </div>
           </div>
-      </div>
+          
+     
     </section>
  
- <!--=========================================================================================================================
+ 
+  <!--=========================================================================================================================
      2.     Personal Appeal 
   ============================================================================================================================-->
      <section class="appeal">
        <div class="container">
-         <div class="row">
-           <div class="col-md-5 col-md-offset-7 callout1">
+         <div class="row callout1">
+           <div class="col-md-6 text-center">
+              <%= image_tag("buildingA.JPG", size: "450x550") %> 
+           </div>     
+           <div class="col-md-6 ">
              <h1>Let's Build Stronger<br>And Safer Communities<br>Together</h1>
              <blockquote>For years we have watched our communities deteriorate due to the flight of jobs and businesses.   Now its time to unite to rebuild our economy! No donations, handouts or charity!  Let's begin to show others that <span class="highlight strong">united we profit!</span></blockquote>
+             <%= link_to "Learn How to Invest", new_contact_path, class: "btn btn-danger navbar-btn btn-lg" %>
            </div>
          </div><!--close row-->
        </div><!--close container-->
      </section>
-      
-  
-  
+     
+  <!--=========================================================================================================================
+     4.     How You Can Help
+  ========================================================================================================================= -->
+     <section class="crowd">
+       
+        <%= link_to "Learn More", new_contact_path, class: "btn btn-danger navbar-btn btn-lg" %>
+     </section>
+     
+
   <!--=========================================================================================================================
       3.    Our campaigns
   ===========================================================================================================================-->
@@ -62,15 +77,10 @@
        </div><!--row-->
       </div><!--container-->
      </section>
-  <!--=========================================================================================================================
-     4.     How You Can Help
-  =========================================================================================================================== -->
-     <section class="crowd">
-       
-        <%= link_to "Learn More", new_contact_path, class: "btn btn-danger navbar-btn btn-lg" %>
-     </section>
      
 
+           
+  
 
 
 <!--=========================================================================================================================
@@ -131,56 +141,7 @@
      </section>
   
   
-  <!--=========================================================================================================================
-          FOOTER
-  ============================================================================================================================-->
-  
-    <footer>
-        <div class="mainfoot">
-            <div class="container">
-                <div class="row">
-                   <div class="col-md-3 col-sm-12">
-                    <center><%= image_tag("NATIVESONSofCHICAGO21", size: "202x69") %></center><br>
-                    <p class="justified">Native Sons of Chicago LLC, is a for profit corporation organized to makes direct and indirect investments in local businesses and value added real estate projects. The goal is to inject capital in historically disadvantaged areas  where such investments can deliver value and provide benefits to local community residents. 
-                    </p> 
-                  </div>   
-                  <ul class="col-md-3 col-sm-12 footlist">
-                    <h4>Get Involved</h4><hr>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Get Involved</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Invest in Us</a></li>
-                    <li><a href="#">Learn More</a></li>
-                  </ul>
-                  <ul class="col-md-3 col-sm-12 footlist">
-                    <h4>Learn More</h4><hr>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">FAQs</a></li>
-                    <li><a href="#">Press</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                    <li><a href="#">Careers</a></li>
-                  </ul>
-                 
-                  <ul class="col-md-3 col-sm-12 footlist">
-                    <h4>Why keep us a secret?</h4>
-                    <ul class="mediabar">
-                    <li class="leadimage"><a href="https://www.facebook.com/Flipbank-765050520297244/?skip_nax_wizard=true"><i class="fa fa-facebook" alt="Facebook icon" title="Facebook icon"></i></a></li>
-                    <li><a href="https://www.facebook.com/Flipbank-765050520297244/?skip_nax_wizard=true"><i class="fa fa-twitter" alt="Facebook icon" title="Facebook icon"></i></a></li>
-                    <li><a href="https://www.facebook.com/Flipbank-765050520297244/?skip_nax_wizard=true"><i class="fa fa-youtube" alt="Facebook icon" title="Facebook icon"></i></a></li>
-                    <li><a href="https://www.facebook.com/Flipbank-765050520297244/?skip_nax_wizard=true"><i class="fa fa-linkedin" alt="Facebook icon" title="Facebook icon"></i></a></li>
-                    <li><a href="https://www.facebook.com/Flipbank-765050520297244/?skip_nax_wizard=true"><i class="fa fa-instagram" alt="Facebook icon" title="Facebook icon"></i></a></li><br>
-                    </ul>
-                    <span>73 W. Monroe St</span><br>
-                    <span>Chicago, IL 60603</span><br>
-                    <span>312-522-6708</span><br>
-                    <span>info@nativesonsofchicago.com</span>
-                  </ul>
-                </div>
-            </div>
-            <div class="subfoot">
-                <p>&copy; 2016 Native Sons of Chicago, Inc | All Rights Reserved.<span class="pull-right"><a href="terms.html">Terms of Use &nbsp;</a> | <a href="privacy.html"> &nbsp; Privacy Policy</a></span></p>
-            </div>
-    </footer>
+ 
   <!--=========================================================================================================================
           MODAL
   ============================================================================================================================-->

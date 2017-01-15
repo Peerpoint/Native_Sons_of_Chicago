@@ -11,4 +11,9 @@ class PagesController < ApplicationController
     def projects
     end
     
+    def privacy
+    end
+    
+    def terms
+    end    
 end

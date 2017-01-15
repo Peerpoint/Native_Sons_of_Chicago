@@ -105,9 +105,9 @@ li a:hover {
 }
 
 .callout h1 {
-    font-size: 5em;
+    font-size: 4em;
     color: #fff;
-    text-shadow: 2px 1px #000;
+    text-shadow: 2px 2px #000;
 }
 .callout p {
     font-size: 2em;
@@ -126,16 +126,21 @@ li a:hover {
 
 /* Appeal */
 .appeal {
-    
-    background: url('rehab2.jpeg') no-repeat;
-    background-size: cover;
     height: 600px;
 }
 .appeal h1 {
     font-size: 3em;
     color: #000;
-    text-shadow: 1px 1px #fff;
-    
+    text-shadow: 2px 2px #fff;
+}
+.appeal img {
+    border-radius: 2%;
+    border: solid 2px #000;
+}
+blockquote {
+    color: #000;
+    text-shadow: 2px 2px #fff;
+    font-size: 1.5em;
 }
 .highlight {
     text-decoration: underline strong;
@@ -304,5 +309,19 @@ ul .mediabar {
     font-size: 1.5em;
 }
 .advisory_sm {
+    color: #000;
+}
+.about_head {
+    background: url('NS_1400x400.jpg') no-repeat;
+    background-size: cover;
+    height: 250px;
+    margin-top: -20px;
+}  
+.mediabar1 li {
+    display: inline;
+    font-size: 2em;
+    padding-right: 15px;
+}
+ul .mediabar1 i .fa {
     color: #000;
 }
