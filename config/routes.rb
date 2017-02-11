@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   get 'projects', to: 'pages#projects'
   get 'terms', to: 'pages#terms'
   get 'privacy', to: 'pages#privacy'
+  get 'invest', to: 'pages#invest'
   
   resources :contacts, only: :create
   get 'contact-us', to: 'contacts#new', as: 'new_contact'

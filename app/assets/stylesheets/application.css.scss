@@ -94,11 +94,10 @@ li a:hover {
 /* hero */
 
 #hero {
-    background: url('web_header.jpg') no-repeat;
+    background: url('web_header.jpg');
+    background-repeat: no-repeat;
     background-size: cover;
-    height: 600px;
-    width: 100%;
-    margin-top: -20px;
+    background-position: center;
 }
 .callout {
     padding-top: 15%;
@@ -325,3 +324,6 @@ ul .mediabar {
 ul .mediabar1 i .fa {
     color: #000;
 }
+
+// mobile views
+

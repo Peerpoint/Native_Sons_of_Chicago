@@ -15,5 +15,8 @@ class PagesController < ApplicationController
     end
     
     def terms
+    end
+    
+    def invest
     end    
 end
